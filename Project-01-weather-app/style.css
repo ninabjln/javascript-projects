@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: #fefefa;
+}
+
+body {
+  background:
+    url("images/background.jpg") center / cover no-repeat,
+    linear-gradient(-225deg, #473b7b 0%, #3584a7 51%, #30d2be 100%);
+}
+p {
+  font-size: 12px;
+}
+
+.weather-card {
+  width: 90%;
+  max-width: 470px;
+  margin: 100px auto;
+  border-radius: 30px;
+  padding: 40px 35px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: black;
+  padding: 10px 28px;
+  border-radius: 30px;
+  flex: 1;
+  height: 55px;
+  margin-right: 14px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search-container button {
+  border: 0;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.search-container img {
+  width: 16px;
+}
+
+.weather-icon {
+  width: 160px;
+  margin-top: 30px;
+}
+
+.weather-container h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.weather-container h2 {
+  font-size: 38px;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+.weather-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.extra-details {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.extra-details img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.humidity-percent, .wind-speed {
+  font-size: 20px;
+}
+
+7014e50539e009b6c717bc8adeae7e7b
