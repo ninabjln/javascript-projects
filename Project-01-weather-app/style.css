@@ -110,3 +110,7 @@ p {
 .humidity-percent, .wind-speed {
   font-size: 20px;
 }
+
+.weather-container {
+  display: none;
+}

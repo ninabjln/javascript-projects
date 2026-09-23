@@ -62,6 +62,7 @@ async function checkWeather() {
     document.querySelector(".wind-js").innerHTML =
       `${Math.round(dataCur.wind.speed)}km/h`;
     weatherIcon.src = `images/${dataCur.weather[0].main}.png`;
+    document.querySelector(".weather-container-js").style.display = "block";
     inputElem.value = "";
   } catch (error) {
     console.log(error);
